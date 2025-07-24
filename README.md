@@ -67,3 +67,6 @@ POST /api/auth/verify-otp → Simulates verifying OTP & returns a token.
 GET /api/auth/profile → Returns a mock user profile.
 
 POST /api/auth/logout → Simulates logout.
+## screen shots
+<img width="1915" height="501" alt="image" src="https://github.com/user-attachments/assets/da1472cd-52a4-43a4-bead-63e1c82d3720" />
+<img width="1916" height="448" alt="image" src="https://github.com/user-attachments/assets/2501171e-5dc3-41c9-9f42-6976c082169d" />
