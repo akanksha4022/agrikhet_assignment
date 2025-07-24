@@ -1,8 +1,8 @@
-Phone Authentication System
+##Phone Authentication System
 A simple Next.js 14 application implementing phone-based OTP authentication with a mock backend for demonstration.
 This project includes Login, OTP Verification, and Profile pages with protected routing.
 
-Features
+##Features
 Phone number authentication (Login/Register)
 
 OTP verification (mocked for demo)
@@ -15,7 +15,7 @@ Mock backend API using Next.js API routes (no separate server needed)
 
 Responsive design using Tailwind CSS
 
-Setup Instructions
+##Setup Instructions
 1. Clone the repository
 bash
 Copy
@@ -46,7 +46,7 @@ NEXT_PUBLIC_API_URL – The base URL for API requests.
 
 For mock API: http://localhost:3000/api
 
-For real backend: Replace with the actual backend URL.
+For real backend: http://localhost:3004
 
 Pages
 /login → Enter phone number and request OTP.
@@ -57,7 +57,7 @@ Pages
 
 / → Redirects to /login.
 
-Mock API Endpoints
+##Mock API Endpoints
 This project includes a mock backend (using Next.js API routes) for testing:
 
 POST /api/auth/send-otp → Simulates sending OTP.
